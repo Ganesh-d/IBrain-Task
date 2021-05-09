@@ -29,7 +29,7 @@ age int)
 
 
 select * from patientinfo
-select year(CURDATE())-year(birthdate) as age from patientinfo 
+
 
 create table appointmentinfo(patid	int,
 apptid	int primary key,
@@ -44,12 +44,7 @@ foreign key(patid) references patientinfo(PatID),
 foreign key(clinicid) references clinicInfo(clinicid))
 
 select * from appointmentinfo
-delete from appointmentinfo where amount<=50
-select count(apptid) from appointmentinfo where clinicid=1
-select count(apptid) from appointmentinfo where month(apptdate)=4
-select count(apptid) from appointmentinfo where year(apptdate)=2020
-select * from patientinfo where patId NOT IN(
-select patId from appointmentinfo)
+
 
 
 
@@ -65,6 +60,6 @@ foreign key(clinicid) references clinicInfo(clinicid))
 
 select * from transactioninfo
 
-select proceduretype,clinicname,prov,year(proceduredate),month(proceduredate),amount from transactioninfo, clinicInfo
+
 
  
