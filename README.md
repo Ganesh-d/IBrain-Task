@@ -11,7 +11,7 @@ all html file contain front end code and backend code written inside servlet.
 -> WebContent folder contain .html files
 -> src folder contain .java files.
 -> build/classes folder contain all .class file of .java files
-
+->sqlFile contain all query that i have used in database.
 index.html file is a homepage of this task that contain UI -
 ![Screenshot (742)](https://user-images.githubusercontent.com/59825872/117578425-efbf9980-b10b-11eb-9033-c1591def7e3f.png)
 
@@ -27,13 +27,14 @@ when you click on byYear.html then it count appointments year wise.
 patient.html contain task 2 details
 it shows a list of patients with patient details who do not have appointments in the future. Display a table on UI.
 ![Screenshot (746)](https://user-images.githubusercontent.com/59825872/117578844-fa7b2e00-b10d-11eb-90a1-30964b1a529c.png)
-
+It give the all the record in table format.
 
 calAge.html contain task3 details
 it Calculate the age of the patient from birthdate and update it into the table. Update patientagegroup column based on a following condition - if age is less than 18 then Minor and other Adult.
 
 tabFormat.html contain task4 details
 it Display on UI in tabular format. Total production, Payments, Production Adjustments, Collection Adjustments by clinic name by Provider name by year by month.
+It give the all the record in table format.
 
 delApp.html contain task 5 details
 it Add functionality to delete appointment having amount less than 50
