@@ -44,3 +44,4 @@ delApp.html contain task 5 details
 it Add functionality to delete appointment having amount less than 50
 ![Screenshot (747)](https://user-images.githubusercontent.com/59825872/117578861-12eb4880-b10e-11eb-9ef7-d44997615fe3.png)
 
+
