@@ -4,6 +4,10 @@ using servlet i have perform database query.
 html used for design UI.
 bootstrap for style and design.
 mysql used for setting up database.
+i have use eclipse ide to write code.
+
+firstly i have created database then create table according to csv file then upload all data of that csv file into the mysql tables.
+
 
 when you execute project it firstly run index.html page that means home page of our application.
 all html file contain front end code and backend code written inside servlet.
